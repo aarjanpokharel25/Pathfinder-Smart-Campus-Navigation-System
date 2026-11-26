@@ -1,0 +1,26 @@
+{
+  "locations": [
+    {"id": "library", "name": "Library", "x": 100, "y": 100},
+    {"id": "main_gate", "name": "Main Gate", "x": 30, "y": 110},
+    {"id": "admin", "name": "Administration Building", "x": 85, "y": 55},
+    {"id": "cafeteria", "name": "Cafeteria", "x": 170, "y": 85},
+    {"id": "science", "name": "Science Building", "x": 205, "y": 145},
+    {"id": "auditorium", "name": "Auditorium", "x": 145, "y": 185},
+    {"id": "dormitory", "name": "Student Dormitory", "x": 65, "y": 205},
+    {"id": "sports", "name": "Sports Center", "x": 245, "y": 225}
+  ],
+  "paths": [
+    {"start": "main_gate", "end": "admin", "distance": 58},
+    {"start": "main_gate", "end": "library", "distance": 72},
+    {"start": "admin", "end": "library", "distance": 50},
+    {"start": "admin", "end": "cafeteria", "distance": 92},
+    {"start": "library", "end": "cafeteria", "distance": 75},
+    {"start": "library", "end": "auditorium", "distance": 90},
+    {"start": "library", "end": "dormitory", "distance": 108},
+    {"start": "cafeteria", "end": "science", "distance": 70},
+    {"start": "cafeteria", "end": "auditorium", "distance": 112},
+    {"start": "science", "end": "sports", "distance": 88},
+    {"start": "auditorium", "end": "sports", "distance": 106},
+    {"start": "dormitory", "end": "auditorium", "distance": 82}
+  ]
+}
